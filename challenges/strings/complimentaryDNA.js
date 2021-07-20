@@ -16,9 +16,6 @@ DNAStrand ("GTAT") // return "CATA"
 */
 
 const DNAStrand = string => {
-    let compliment;
-    const newString = string;
-    
 
     const findCompliment = (letter) => {
         if(letter === "A") return "T"
@@ -27,7 +24,7 @@ const DNAStrand = string => {
         else return "G"
     }
 
-    compliment = newString.split("").map(letter => findCompliment(letter)).join("")
+    const compliment = string.split("").map(letter => findCompliment(letter)).join("")
     return compliment
 }
 
