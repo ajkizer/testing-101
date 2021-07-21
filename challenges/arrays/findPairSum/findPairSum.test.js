@@ -57,6 +57,13 @@ test("returns correct indices of the values that sum up to the target #3", () =>
 })
 
 
+test("returns correct indices of the values that sum up to the target #4", () => {
+    let array = [1,3,7,9,2];
+    let target = 11;
+    let answer = [3,4]
+
+    expect(findPairSum(array, target)).toEqual(answer);
+})
 
 
 test("returns null if no values add up to the target", () => {
@@ -66,3 +73,4 @@ test("returns null if no values add up to the target", () => {
 
     expect(findPairSum(array, target)).toEqual(answer);
 })
+
