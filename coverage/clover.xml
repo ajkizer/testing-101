@@ -1,22 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1626816610823" clover="3.2.0">
-  <project timestamp="1626816610823" name="All files">
-    <metrics statements="13" coveredstatements="13" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1" elements="18" coveredelements="18" complexity="0" loc="13" ncloc="13" packages="1" files="1" classes="1"/>
-    <file name="findPairSum.js" path="C:\Users\HP\Desktop\one-percent-better\testingAndChallenges\challenges\arrays\findPairSum\findPairSum.js">
-      <metrics statements="13" coveredstatements="13" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+<coverage generated="1627025207152" clover="3.2.0">
+  <project timestamp="1627025207152" name="All files">
+    <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2" elements="6" coveredelements="6" complexity="0" loc="4" ncloc="4" packages="1" files="1" classes="1"/>
+    <file name="sumOfIntegers.js" path="C:\Users\HP\Desktop\one-percent-better\testingAndChallenges\challenges\strings\sumOfIntegers\sumOfIntegers.js">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
       <line num="1" count="1" type="stmt"/>
       <line num="2" count="8" type="stmt"/>
-      <line num="3" count="8" type="cond" truecount="2" falsecount="0"/>
-      <line num="7" count="6" type="stmt"/>
-      <line num="12" count="6" type="stmt"/>
-      <line num="13" count="24" type="stmt"/>
-      <line num="14" count="24" type="stmt"/>
-      <line num="15" count="24" type="cond" truecount="2" falsecount="0"/>
-      <line num="16" count="14" type="stmt"/>
-      <line num="18" count="10" type="stmt"/>
-      <line num="23" count="6" type="stmt"/>
-      <line num="27" count="6" type="stmt"/>
-      <line num="31" count="1" type="stmt"/>
+      <line num="6" count="25" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>

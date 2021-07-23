@@ -35,7 +35,6 @@ const lengthOfSubarray = array => {
         }
 
         length = numMap[degree].finalIndex - numMap[degree].firstIndex + 1
-        console.log(length)
         return length;
 }
 
