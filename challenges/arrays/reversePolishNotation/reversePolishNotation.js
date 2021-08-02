@@ -72,21 +72,21 @@ const reversePolishNotation = (array) => {
         let num1;
         let num2;
 
-        if(priority === null) {
+        if(answer === null) {
             num1 = Number(leftOver[leftOver.length-1])
             num2 = Number(leftOver[leftOver.length-2])
       
             leftOver.pop();
             leftOver.pop();
 
-            priority = runOperation(item, num1, num2)
+            answer = runOperation(item, num1, num2)
         } else {
-            num1 = priority
+            num1 = answer
             num2 = Number(leftOver[leftOver.length-1])
       
             leftOver.pop()
       
-            priority = runOperation(item, num1, num2)
+            answer = runOperation(item, num1, num2)
         }
     }
 
