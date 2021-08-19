@@ -48,23 +48,18 @@ const reversePolishNotation = (array) => {
         if(operators.includes(string)){
             return true
         }
-        
         return false
     }
 
 
     const runOperation = (operator, num1, num2) => {
-
         const operators = {
             "+": num1 + num2,
             "-": num1 - num2,
             "/": Math.floor(Math.abs(num2 / num1)),
             "*": num1 * num2
         }
-
-        const value = operators[operator]
-
-        return value
+        return operators[operator]
     }
 
 
@@ -75,17 +70,13 @@ const reversePolishNotation = (array) => {
         if(answer === null) {
             num1 = Number(leftOver[leftOver.length-1])
             num2 = Number(leftOver[leftOver.length-2])
-      
             leftOver.pop();
             leftOver.pop();
-
             answer = runOperation(item, num1, num2)
         } else {
             num1 = answer
             num2 = Number(leftOver[leftOver.length-1])
-      
             leftOver.pop()
-      
             answer = runOperation(item, num1, num2)
         }
     }
@@ -98,8 +89,6 @@ const reversePolishNotation = (array) => {
             leftOver.push(item)
         }
     })
-
-
 
     return answer
 }
